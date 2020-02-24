@@ -1,0 +1,32 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+
+body{
+    background-color:white;
+    color: grey;
+}
+
+/* this is the section of the h1 */
+h1 {
+    font-size: 3em !important;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(21, 240, 14);
+    margin-top: 10px !important ;
+    margin-bottom: 70px !important;
+}
+
+/* this is the button section */
+.btn-width {
+    width: 100%;
+}
+
+.remove-todoList,
+.remove-todoList:hover{
+    float: right !important;
+    cursor: pointer;
+    color: red !important;
+    font-weight: bold;
+}
+
